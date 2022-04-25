@@ -28,7 +28,11 @@ function confirmTickets(){
 
     }
     else if(available>amnt){
-        alert("Insufficient Balance!    ")
+        alert("Insufficient Balance!")
         
+    }
+    else if(amnt==0)
+    {
+        alert("Insufficient Balance!")
     }
 }
